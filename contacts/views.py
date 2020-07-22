@@ -34,7 +34,7 @@ def contact (request):
             'Property Listing Inquiry',
             "There has been an inquiry for " + listing + ".",
             'fjsolis49@gmail.com',
-            [realtor_email, 'fjsolis49@gmail.com'],
+            ['fjsolis49@gmail.com'],
             fail_silently=False
         )
 
